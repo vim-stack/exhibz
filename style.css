@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;900&display=swap');
 
 body {
-    background: #3F3B51;
+    /* background: #3F3B51; */
     font-family: 'Roboto Slab', serif;
 }
 
@@ -82,6 +82,10 @@ section {
 footer a{
     color: #0AEDED;
 
+}
+.wavy-underline{
+  text-decoration-line: overline underline;
+  text-decoration-style: wavy;
 }
 
 /* Responsive */

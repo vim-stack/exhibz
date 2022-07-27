@@ -88,6 +88,33 @@ footer a{
   text-decoration-style: wavy;
 }
 
+.bg-light-clr{
+  background-color: #0AEDED;
+}
+.side-align-right{
+  text-align: right;
+}
+.text-color{
+  color: rgb(196, 37, 90);
+}
+.section-head{
+  color: rgb(113, 16, 240);
+}
+.event-banner{
+    background-image: url(./assets/image/Usign-Gradients-Featured-Image.webp);
+    min-height: 300px;
+    width: 100%;
+
+}
+.evemt-banner-layer{
+    background-color: yellow;
+    opacity: 0.4;
+    width: 100%;
+
+}
+
+
+
 /* Responsive */
 @media(max-width: 991.5px) {
     .navbar-brand {

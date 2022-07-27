@@ -102,17 +102,21 @@ footer a{
 }
 .event-banner{
     background-image: url(./assets/image/Usign-Gradients-Featured-Image.webp);
-    min-height: 300px;
+    min-height: 250px;
     width: 100%;
 
 }
 .evemt-banner-layer{
-    background-color: yellow;
-    opacity: 0.4;
+   
     width: 100%;
 
 }
-
+.row-height{
+    height: 250px;
+}
+.event-heading, .event-description{
+    color: white;
+}
 
 
 /* Responsive */

@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;900&display=swap');
 
 body {
-    /* background: #3F3B51; */
     font-family: 'Roboto Slab', serif;
 }
 
@@ -12,22 +11,18 @@ button:focus,
 }
 
 header {
-    background-color: #142525;
+    background-color: #182627;
     padding: 15px 0;
-
 }
 
 .navbar-brand {
     font-size: 40px;
     font-weight: 700;
-    color: #0AEDED;
-    -webkit-text-stroke: #fff 1px;
-
+    color: #a508b9;
 }
 
 .navbar-brand:hover {
-    color: #3F3B51;
-
+    color: #f808f8;
 }
 
 .navbar-nav .nav-item {
@@ -73,7 +68,8 @@ header {
 }
 
 .btn {
-    background-color: #0AEDED;
+    background-color: #da16da;
+    color: white;
 }
 
 section {

@@ -143,3 +143,105 @@ footer a{
         margin: 30px 0;
     }
 }
+/* first page  */
+
+.d-block {
+    max-height: 80vh;
+    opacity: 1;
+  }
+
+  #logo {
+    position: absolute;
+    /* Reposition logo from the natural layout */
+    left: 300px;
+    bottom: 0px;
+    width: 1000px;
+    height: 70px;
+    z-index: 1;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    padding-bottom: 8rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+
+  .bg-color {
+    color: white;
+    background: rgb(57, 63, 131);
+    background: linear-gradient(90deg, rgba(57, 63, 131, 1) 0%, rgba(56, 8, 55, 1) 53%);
+    height: 100px;
+  }
+
+  .fs-6 {
+    font-size: 10px !important;
+  }
+
+  /* second page  */
+  /* third page  */
+  body {
+    color: white;
+
+  }
+
+  .dot {
+    height: 250px;
+    width: 250px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 20px;
+  }
+
+  .fa-solid {
+    font-size: 70px;
+    padding: 30px;
+
+  }
+
+  .cir-1 {
+    background-color: orangered;
+    background: rgb(247, 4, 4);
+    background: radial-gradient(circle, rgba(247, 4, 4, 1) 0%, rgba(252, 176, 70, 0.9895308465182948) 100%);
+  }
+
+  .cir-2 {
+    background-color: slateblue;
+    background: rgb(212, 210, 236);
+    background: radial-gradient(circle, rgba(212, 210, 236, 1) 0%, rgba(69, 69, 185, 0.8242647400757178) 60%);
+  }
+
+  .cir-3 {
+    background-color: lightgreen;
+    background: rgb(186, 204, 197);
+    background: radial-gradient(circle, rgba(186, 204, 197, 0.8410714627647934) 20%, rgba(38, 233, 15, 1) 100%);
+
+  }
+
+  .cir-4 {
+    background-color: lightblue;
+    background: rgb(23, 4, 247);
+    background: linear-gradient(90deg, rgba(23, 4, 247, 1) 0%, rgba(70, 224, 252, 0.9895308465182948) 80%);
+  }
+  /* fourth page  */
+  /* fifth page  */
+  .color {
+    color: rgb(58, 40, 113);
+}
+/* sixth page  */
+/* seventh page  */
+.img-fluid {
+    max-height: 80vh;
+  }
+.bg-color {
+background: linear-gradient(90deg,
+        rgba(164, 225, 232, 1) 0%,
+        rgba(136, 136, 227, 1) 35%,
+        rgba(52, 50, 92, 1) 100%);
+  }
+  /* eight page  */
+
+
+  /* nineth page  */
+

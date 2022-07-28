@@ -1,25 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
 
-    <!DOCTYPE html>
-    <html lang="en">
-    
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Exhibz</title>
-    
-        <!-- Bootstrap 5 CDN Links -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    
-        <!-- Custom File's Link -->
-        <link rel="stylesheet" href="style.css">
-    </head>
-    
-    <body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exhibz</title>
 
-        <!-- Bootstrap 5 JS CDN Links -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
-    </body>
-    
-    </html>
+  <!-- Bootstrap 5 CDN Links -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <!-- Custom File's Link -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- navbar -->
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">Exhibz</a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbar-content">
+          <i class="fas fa-stream text-white"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-content">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown dropdown-mega position-static">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                data-bs-auto-close="outside">Speaker</a>
+              <div class="dropdown-menu shadow">
+                <div class="mega-content px-md-4">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-3 col-sm-6 py-4 px-xl-5 px-4">
+                        <h5>Service</h5>
+                        <div class="list-group">
+                          <a class="list-group-item" href="#">Accomodations</a>
+                          <a class="list-group-item" href="#">Terms & Conditions</a>
+                          <a class="list-group-item" href="#">Privacy</a>
+                          <a class="list-group-item" href="#">Lorum</a>
+                          <a class="list-group-item" href="#">Lorum</a>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-sm-6 py-4 px-xl-5 px-4">
+                        <h5>Service</h5>
+                        <div class="list-group">
+                          <a class="list-group-item" href="#">Accomodations</a>
+                          <a class="list-group-item" href="#">Terms & Conditions</a>
+                          <a class="list-group-item" href="#">Privacy</a>
+                          <a class="list-group-item" href="#">Lorum</a>
+                          <a class="list-group-item" href="#">Lorum</a>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-sm-6 py-4 px-xl-5 px-4">
+                        <h5>Service</h5>
+                        <div class="list-group">
+                          <a class="list-group-item" href="#">Accomodations</a>
+                          <a class="list-group-item" href="#">Terms & Conditions</a>
+                          <a class="list-group-item" href="#">Privacy</a>
+                          <a class="list-group-item" href="#">Lorum</a>
+                          <a class="list-group-item" href="#">Lorum</a>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-sm-6 py-4 px-xl-5 px-4">
+                        <h5>Service</h5>
+                        <div class="list-group">
+                          <a class="list-group-item" href="#">Accomodations</a>
+                          <a class="list-group-item" href="#">Terms & Conditions</a>
+                          <a class="list-group-item" href="#">Privacy</a>
+                          <a class="list-group-item" href="#">Lorum</a>
+                          <a class="list-group-item" href="#">Lorum</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown dropdown-mega position-static">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                data-bs-auto-close="outside">Schedule</a>
+              <div class="dropdown-menu shadow">
+                <div class="mega-content px-md-4">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-3 col-sm-6 py-4 px-xl-5 px-4">
+                        <h5>Products</h5>
+                        <div class="list-group">
+                          <a class="list-group-item" href="#">Accomodations</a>
+                          <a class="list-group-item" href="#">Terms & Conditions</a>
+                          <a class="list-group-item" href="#">Privacy</a>
+                          <a class="list-group-item" href="#">Lorum</a>
+                          <a class="list-group-item" href="#">Lorum</a>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-sm-6 py-4 px-xl-5 px-4">
+                        <h5>Products</h5>
+                        <div class="list-group">
+                          <a class="list-group-item" href="#">Accomodations</a>
+                          <a class="list-group-item" href="#">Terms & Conditions</a>
+                          <a class="list-group-item" href="#">Privacy</a>
+                          <a class="list-group-item" href="#">Lorum</a>
+                          <a class="list-group-item" href="#">Lorum</a>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-sm-6 py-4 px-xl-5 px-4">
+                        <h5>Products</h5>
+                        <div class="list-group">
+                          <a class="list-group-item" href="#">Accomodations</a>
+                          <a class="list-group-item" href="#">Terms & Conditions</a>
+                          <a class="list-group-item" href="#">Privacy</a>
+                          <a class="list-group-item" href="#">Lorum</a>
+                          <a class="list-group-item" href="#">Lorum</a>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-sm-6 py-4 px-xl-5 px-4">
+                        <h5>Products</h5>
+                        <div class="list-group">
+                          <a class="list-group-item" href="#">Accomodations</a>
+                          <a class="list-group-item" href="#">Terms & Conditions</a>
+                          <a class="list-group-item" href="#">Privacy</a>
+                          <a class="list-group-item" href="#">Lorum</a>
+                          <a class="list-group-item" href="#">Lorum</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown dropdown-mega position-static">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                data-bs-auto-close="outside">Speaker</a>
+              <div class="dropdown-menu shadow">
+                <div class="mega-content px-md-4">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-3 col-sm-6 py-4 px-xl-5 px-4">
+                        <h5>Service</h5>
+                        <div class="list-group">
+                          <a class="list-group-item" href="#">Accomodations</a>
+                          <a class="list-group-item" href="#">Terms & Conditions</a>
+                          <a class="list-group-item" href="#">Privacy</a>
+                          <a class="list-group-item" href="#">Lorum</a>
+                          <a class="list-group-item" href="#">Lorum</a>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-sm-6 py-4 px-xl-5 px-4">
+                        <h5>Service</h5>
+                        <div class="list-group">
+                          <a class="list-group-item" href="#">Accomodations</a>
+                          <a class="list-group-item" href="#">Terms & Conditions</a>
+                          <a class="list-group-item" href="#">Privacy</a>
+                          <a class="list-group-item" href="#">Lorum</a>
+                          <a class="list-group-item" href="#">Lorum</a>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-sm-6 py-4 px-xl-5 px-4">
+                        <h5>Service</h5>
+                        <div class="list-group">
+                          <a class="list-group-item" href="#">Accomodations</a>
+                          <a class="list-group-item" href="#">Terms & Conditions</a>
+                          <a class="list-group-item" href="#">Privacy</a>
+                          <a class="list-group-item" href="#">Lorum</a>
+                          <a class="list-group-item" href="#">Lorum</a>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-sm-6 py-4 px-xl-5 px-4">
+                        <h5>Service</h5>
+                        <div class="list-group">
+                          <a class="list-group-item" href="#">Accomodations</a>
+                          <a class="list-group-item" href="#">Terms & Conditions</a>
+                          <a class="list-group-item" href="#">Privacy</a>
+                          <a class="list-group-item" href="#">Lorum</a>
+                          <a class="list-group-item" href="#">Lorum</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <form class="d-flex ms-auto">
+            <div class="input-group">
+              <button class="btn border-0" type="submit">Buy Ticket</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      </div>
+      </div>
+      </li>
+      </ul>
+
+      </div>
+      </div>
+    </nav>
+  </header>
+  <!-- navbar end -->
+  <!-- first page start -->
+
+  <body>
+    <div class="container-fluid ">
+      <div class="row">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active ">
+              <img src="./assets/image/pexels-piccinng-3075993.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p>5 to 7 June 2019,Waterfront Hotel,London</p>
+                <h1>WORLD'S LEADING EVENT</h1>
+                <p>How you transfrom your Business as technology,consumer, habits industry <br>
+                  dynamic changes? Find out from those leading the charge.</p>
+                <button type="button" class="btn btn-primary">GET TICKET</button>
+                <button type="button" class="btn btn-secondary">KNOW MORE</button>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div id="logo">
+        <div class="row bg-color align-self-center">
+          <div class="col-lg-3 align-self-center">
+            <div class="row">
+              <div class="col-lg-6 text-center">
+                <h1>199</h1>
+                <p class="fs-6">days</p>
+              </div>
+              <div class="col-lg-6  text-center">
+                <h1>:</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 align-self-center">
+            <div class="row">
+              <div class="col-lg-6  text-center">
+                <h1>10</h1>
+                <p class="fs-6">hours</p>
+              </div>
+              <div class="col-lg-6  text-center">
+                <h1>:</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 align-self-center">
+            <div class="row">
+              <div class="col-lg-6  text-center">
+                <h1>50</h1>
+                <p class="fs-6">minutes</p>
+              </div>
+              <div class="col-lg-6  text-center">
+                <h1>:</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 align-self-center">
+            <h1>00</h1>
+            <p class="fs-6">seconds</p>
+          </div>
+        </div>
+      </div>
+      <!-- first page end -->
+      <!-- second page start  -->
+      <div class="container-fluid text-center mb-5  pt-5 mt-5">
+        <h6 class="text-muted">WHY JOIN US</h6>
+        <h1 class="section-head">Event Outcome</h1>
+      </div>
+      <!-- second page end  -->
+      <!-- third page start  -->
+      <div class="container pt-3 pb-5">
+        <div class="row">
+          <div class="col-lg-3 text-center">
+            <span class="dot cir-1"><i class="fa-solid fa-gears"></i>
+              <h4>Building</h4>
+            </span>
+          </div>
+          <div class="col-lg-3 text-center">
+            <span class="dot cir-2"><i class="fa-solid fa-bullhorn"></i>
+              <h4>Marketing</h4>
+            </span>
+          </div>
+          <div class="col-lg-3 text-center">
+            <span class="dot cir-3"><i class="fa-solid fa-lightbulb"></i>
+              <h4>Planing</h4>
+            </span>
+          </div>
+          <div class="col-lg-3 text-center">
+            <span class="dot cir-4"> <i class="fa-solid fa-database"></i>
+              <h4>Monetizing</h4>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- third page end              -->
+    <!-- fourth page start -->
+    <div class=" event-banner">
+      <div class=" container evemt-banner-layer">
+        <div class="row row-height align-items-center">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <h1 class="event-heading">43+</h1>
+            <p class="event-description">Our Visinoury speaker</p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <h1 class="event-heading">62</h1>
+            <p class="event-description">International Sponsors</p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <h1 class="event-heading">28+</h1>
+            <p class="event-description">Workshop we offer</p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <h1 class="event-heading">950+</h1>
+            <p class="event-description">Event Participants</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- fourth page end  -->
+    <!-- fifth page start  -->
+    <div class="container text-center">
+      <p class="text-muted">LISTEN T THE</p>
+      <H3 class="color">Event Speakers</H3>
+      <p class="color">/\/\/\/\/\/\/</p>
+    </div>
+    <!-- fifth page end  -->
+    <!-- sixth page start  -->
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-3">
+        <div class="col-lg-3 align-items-end">
+          <div class="card h-100 card-details">
+            <div class="text-styling ">
+              <h4>James Killer</h4>
+              <p>Founder, Edilta</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 align-items-end">
+          <div class="card h-100 card-details">
+            <div class="text-styling ">
+              <h4>James Killer</h4>
+              <p>Founder, Edilta</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 align-items-end">
+          <div class="card h-100 card-details">
+            <div class="text-styling ">
+              <h4>James Killer</h4>
+              <p>Founder, Edilta</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 align-items-end">
+          <div class="card h-100 card-details">
+            <div class="text-styling ">
+              <h4>James Killer</h4>
+              <p>Founder, Edilta</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-3">
+        <div class="col-lg-3 align-items-end">
+          <div class="card h-100 card-details">
+            <div class="text-styling ">
+              <h4>James Killer</h4>
+              <p>Founder, Edilta</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 align-items-end">
+          <div class="card h-100 card-details">
+            <div class="text-styling ">
+              <h4>James Killer</h4>
+              <p>Founder, Edilta</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 align-items-end">
+          <div class="card h-100 card-details">
+            <div class="text-styling ">
+              <h4>James Killer</h4>
+              <p>Founder, Edilta</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 align-items-end">
+          <div class="card h-100 card-details">
+            <div class="text-styling ">
+              <h4>James Killer</h4>
+              <p>Founder, Edilta</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- sixth page end  -->
+    <!-- seventh page start  -->
+    <div class="container-fluid pt-5 pb-5">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 ">
+          <img src="./assets/image/pexels-sebastian-ervi-1763067.jpg" class="img-fluid" alt="...">
+        </div>
+        <div class="col-lg-6 col-md-12 align-self-center bg-color">
+          <div class="text-wrap" style="max-width:25rem;">
+            <p class="fs-5 ps-3 pb-3">GET EXPERIENCE</p>
+            <H2 class=" ps-3 pb-3">Shift your perspective on digital business</H2>
+            <p class="fs-5 ps-3 ">How you transform your business as technology,
+              consumer, habits industry dynamic's change?
+              Find out from those leading the charge.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- seventh page end  -->
+    <!-- Eighth-Page start  -->
+    <div class="container-fluid text-center mb-5 mt-5">
+      <h6 class="text-muted">SCHEDULE DETAILS</h6>
+      <h1 class="section-head">Event Schedules</h1>
+      <div class="row justify-content-center mt-5">
+        <div class="col-lg-1 text-center">
+          <h4>14 Feb</h4>
+          <p>Friday</p>
+        </div>
+        <div class="col-lg-1 text-center">
+          <h4>15 Feb</h4>
+          <p>Saturday</p>
+        </div>
+        <div class="col-lg-1  text-center">
+          <h4>16 Feb</h4>
+          <p>Sunday</p>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 side-align-right">
+          <p class="text-color">9.30 - 10.30 AM Workshop</p>
+          <h5 class="text-muted">James Killer</h5>
+          <h2>Marketing Matters!</h2>
+          <p>Scan for vulnerabilities in web applications and find SQL Injection, XSS, Server Side-Request Forgery,
+            Directory Traversal, and others, plus web server configuration issues. </p>
+        </div>
+        <div class="col-lg-6 col-md-6 ">
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 ">
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <p class="text-color">9.30 - 10.30 AM Workshop</p>
+          <h5 class="text-muted">James Killer</h5>
+          <h2>Marketing Matters!</h2>
+          <p>Scan for vulnerabilities in web applications and find SQL Injection, XSS, Server Side-Request Forgery,
+            Directory Traversal, and others, plus web server configuration issues. </p>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 side-align-right">
+          <p class="text-color">9.30 - 10.30 AM Workshop</p>
+          <h5 class="text-muted">James Killer</h5>
+          <h2>Marketing Matters!</h2>
+          <p>Scan for vulnerabilities in web applications and find SQL Injection, XSS, Server Side-Request Forgery,
+            Directory Traversal, and others, plus web server configuration issues. </p>
+        </div>
+        <div class="col-lg-6 col-md-6 ">
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 ">
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <p class="text-color">9.30 - 10.30 AM Workshop</p>
+          <h5 class="text-muted">James Killer</h5>
+          <h2>Marketing Matters!</h2>
+          <p>Scan for vulnerabilities in web applications and find SQL Injection, XSS, Server Side-Request Forgery,
+            Directory Traversal, and others, plus web server configuration issues. </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="col-lg-4 justify-content-center">
+        <button type="button" class="btn btn-danger">Danger</button>
+
+      </div>
+    </div>
+    <!-- Eighth-Page end  -->
+    <!-- nineth page start  -->
+
+
+    <!-- nineth page end  -->
+    <!-- tenth page start  -->
+    <div class="container-fluid text-center mb-5 mt-5">
+      <h6 class="text-muted">WHO HELPED US</h6>
+      <h1 class="section-head">Our Sponsors</h1>
+
+    </div>
+    <div class="container-fluid text-center mb-5 mt-5">
+
+      <h2>Platinum Sponsors</h2>
+      <div class="row mt-5 pt-5">
+        <div class="col-lg-3 col-md-6">
+          <img src="./assets/image/banner1.png" style="height: 100px; opacity: 0.5;">
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img src="./assets/image/banner2.png" style="height: 100px; opacity: 0.5;">
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img src="./assets/image/banner3.png" style="height: 100px; opacity: 0.5;">
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img src="./assets/image/banner4.png" style="height: 100px; opacity: 0.5;">
+        </div>
+      </div>
+
+    </div>
+    <div class="container-fluid text-center mb-5 mt-5">
+
+      <h2>Golden Sponsors</h2>
+      <div class="row mt-5 pt-5">
+        <div class="col-lg-3 col-md-6">
+          <img src="./assets/image/banner1.png" style="height: 100px; opacity: 0.5;">
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img src="./assets/image/banner2.png" style="height: 100px;opacity: 0.5;">
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img src="./assets/image/banner3.png" style="height: 100px; opacity: 0.5;">
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img src="./assets/image/banner4.png" style="height: 100px; opacity: 0.5;">
+        </div>
+      </div>
+    </div>
+    <div class="d-grid col-2 mx-auto mb-5 mt-5">
+      <button class="btn border-0" type="button">BECOME A SPONSOR</button>
+    </div>
+    <!-- tenth page end  -->
+
+
+    <!-- Bootstrap 5 JS CDN Links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+  </body>
+
+</html>

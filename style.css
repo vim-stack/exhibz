@@ -241,7 +241,71 @@ background: linear-gradient(90deg,
         rgba(52, 50, 92, 1) 100%);
   }
   /* eight page  */
+  .back-color {
+    color: white;
+    background-color: rgb(60, 60, 113);
+  }
 
+  .dot {
+    height: 150px;
+    width: 150px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 20px;
+  }
+
+
+  .numberCircle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 22px;
+    border: none;
+    margin: 0 auto;
+    z-index: 1;
+    transform: translateY(-50%);
+    line-height: 50px;
+  }
+
+  .card-body {
+    color: black;
+  }
+
+
+
+  .fa-solid {
+    font-size: 80px;
+  }
+
+  .cir-1,
+  .btn-1 {
+    background: lightcoral;
+  }
+
+  .cir-2 {
+    background: coral;
+  }
+
+  .cir-3 {
+    background: rgb(60, 60, 113);
+  }
+
+  .btn-1 {
+
+    color: white;
+  }
+
+  .btn-2 {
+    background: coral;
+    color: white;
+  }
+
+  .btn-3 {
+    background: rgb(60, 60, 113);
+    color: white;
+  }
 
   /* nineth page  */
 

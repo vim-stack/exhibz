@@ -88,6 +88,51 @@ footer a{
   text-decoration-style: wavy;
 }
 
+.bg-light-clr{
+  background-color: #0AEDED;
+}
+.side-align-right{
+  text-align: right;
+}
+.text-color{
+  color: rgb(196, 37, 90);
+}
+.section-head{
+  color: rgb(113, 16, 240);
+}
+.event-banner{
+    background-image: url(./assets/image/Usign-Gradients-Featured-Image.webp);
+    min-height: 250px;
+    width: 100%;
+
+}
+.row-height{
+    height: 250px;
+}
+.event-heading, .event-description{
+    color: white;
+}
+.event-heading{
+    font-size: 60px;
+    font-weight: 800;
+}
+.card-details{
+    text-align: right;
+    background-color: red;
+    background-image: url(./assets/image/testimonial1.jpg);
+    position: relative;
+    min-height: 40vh;
+}
+.text-styling{
+    width: 90%;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
 /* Responsive */
 @media(max-width: 991.5px) {
     .navbar-brand {

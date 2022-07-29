@@ -162,37 +162,12 @@ section {
 }
 /* Media Query End*/
 
-/* ********************************************************* */
-
-
-
-
-
-
-
-
-
-
-
-
 /* first page  */
 
 .d-block {
     max-height: 80vh;
-    opacity: 1;
   }
-
-  #logo {
-    position: absolute;
-    /* Reposition logo from the natural layout */
-    left: 300px;
-    bottom: 0px;
-    width: 1000px;
-    height: 70px;
-    z-index: 1;
-  }
-
-  .carousel-caption {
+ .carousel-caption {
     position: absolute;
     padding-bottom: 8rem;
     color: rgb(255, 255, 255);
@@ -294,9 +269,7 @@ background: linear-gradient(90deg,
     display: inline-block;
     padding: 20px;
   }
-
-
-  .numberCircle {
+.numberCircle {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -312,10 +285,7 @@ background: linear-gradient(90deg,
   .card-body {
     color: black;
   }
-
-
-
-  .fa-solid {
+.fa-solid {
     font-size: 80px;
   }
 

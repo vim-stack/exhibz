@@ -128,17 +128,22 @@ section {
 .side-align-right{
   text-align: right;
 }
-.event-schedule-details{
-  color: black;
-}
+
 /* Eighth Page CSS End */
 
 /* Tenth Page CSS Start */
+
 .section-head{
   color: rgb(113, 16, 240);
 }
 
 /* Tenth Page CSS End */
+
+/* Sixth-Eighth-Tenth Mixed  Start*/
+.event-schedule-details, .event-speaker-degination, .sponsor-category{
+  color: black;
+}
+/* Sixth-Eighth-Tenth Mixed CSS End */
 
 /* Responsive Media Query Start*/
 

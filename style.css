@@ -225,11 +225,13 @@ footer a{
     background: linear-gradient(90deg, rgba(23, 4, 247, 1) 0%, rgba(70, 224, 252, 0.9895308465182948) 80%);
   }
   /* fourth page  */
+
   /* fifth page  */
   .color {
     color: rgb(58, 40, 113);
 }
 /* sixth page  */
+
 /* seventh page  */
 .img-fluid {
     max-height: 80vh;
@@ -239,6 +241,7 @@ background: linear-gradient(90deg,
         rgba(164, 225, 232, 1) 0%,
         rgba(136, 136, 227, 1) 35%,
         rgba(52, 50, 92, 1) 100%);
+        color: black;
   }
   /* eight page  */
   .back-color {

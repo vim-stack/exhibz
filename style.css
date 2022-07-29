@@ -97,7 +97,7 @@ section {
   font-weight: 800;
 }
 .row-height{
-  height: 250px;
+  min-height: 250px;
 }
 
 /* Forth Page CSS End */
@@ -200,7 +200,7 @@ section {
   .dot {
     height: 250px;
     width: 250px;
-    background-color: #bbb;
+    /* background-color: #bbb; */
     border-radius: 50%;
     display: inline-block;
     padding: 20px;
@@ -208,7 +208,7 @@ section {
 
   .fa-solid {
     font-size: 70px;
-    padding: 30px;
+    padding: 15px;
 
   }
 
